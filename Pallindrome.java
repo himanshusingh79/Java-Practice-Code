@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-class Pallindrome{
-	public static void main(String[] args){
-		Scanner sc = new Scanner(System.in);
+class Pallindrome {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number to Check for Pallindrome");
 		int number = sc.nextInt();
 		int temp = number;
+		int reverse = 0;
 		while(temp != 0){
-			num = temp % 10;
+			int num = temp % 10;
 			reverse = (reverse * 10) + num;
 			
 			temp = temp/10;
@@ -16,6 +17,6 @@ class Pallindrome{
 			System.out.println("Pallindrome Number");
 		}
 		else
-			System.out.println("Not a Pallindrome Number");
-	}
+			System.out.println("Not a Pallindrome Number");       
+    }
 }
