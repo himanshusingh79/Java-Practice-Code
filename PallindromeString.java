@@ -16,7 +16,7 @@ class PallindromeString {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        HelloWorld hw = new HelloWorld();
+        PallindromeString hw = new PallindromeString();
         int n;
         do{
         System.out.println("Enter the string\n");
